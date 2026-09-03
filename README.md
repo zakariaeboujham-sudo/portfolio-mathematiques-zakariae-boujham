@@ -15,12 +15,18 @@ Ce dépôt présente une sélection de travaux académiques en privilégiant tro
 
 | Projet | Problématique | Méthodes principales | Contenu |
 |---|---|---|---|
-| [Statistique d'ordre avec R](projets/01-statistique-ordre-r/) | Identifier une loi compatible avec un échantillon observé | Statistiques descriptives, estimation, QQ-plots, noyaux et test d'adéquation | Note technique et scripts R reproductibles |
-| [Opérateurs J-class et hypercyclicité](projets/02-operateurs-j-class/) | Étudier la dynamique locale d'opérateurs linéaires | Analyse fonctionnelle, dynamique linéaire et synthèse d'articles | Synthèse personnelle et bibliographie |
-| [Analyse complexe et étude des zéros](projets/03-analyse-complexe/) | Étudier singularités, pôles et zéros | Cauchy, Laurent, résidus, principe de l'argument et Rouché | Note fondée sur l'extrait conservé du projet de Licence |
+| [Statistique d'ordre avec R](projets/01-statistique-ordre-r/) | Identifier une loi de probabilité compatible avec un échantillon observé | Statistiques descriptives, statistiques d'ordre, estimation, QQ-plots et test d'adéquation | Rapport universitaire complet de 27 pages |
+| [Opérateurs J-class et hypercyclicité](projets/02-operateurs-j-class/) | Étudier la dynamique locale d'opérateurs linéaires et ses liens avec l'hypercyclicité | Analyse fonctionnelle, dynamique linéaire, lecture et comparaison d'articles | Présentation du travail et bibliographie vérifiable |
+| [Principe du maximum en analyse complexe](projets/03-analyse-complexe/) | Établir le principe du maximum et étudier ses conséquences | Holomorphie, Cauchy, Laurent, résidus, prolongement analytique, zéros et Rouché | Mémoire complet de Licence de 35 pages |
 
 ## Démarche
 
-Pour chaque projet, la présentation distingue le problème étudié, l'approche, les résultats, les limites et les compétences mobilisées.
+Pour chaque projet, la présentation distingue explicitement :
 
-Les documents administratifs, identifiants étudiants, données non autorisées et articles scientifiques de tiers ne sont pas publiés dans ce dépôt.
+1. le problème étudié ;
+2. l'approche mathématique ou numérique ;
+3. les résultats obtenus ou étudiés ;
+4. les limites et précautions d'interprétation ;
+5. les compétences mobilisées.
+
+Les deux rapports universitaires personnels disponibles sont publiés dans leur intégralité. Le numéro étudiant visible sur le rapport de statistique a été masqué. Les relevés de notes, autres documents administratifs et copies d'articles scientifiques de tiers ne sont pas publiés.
