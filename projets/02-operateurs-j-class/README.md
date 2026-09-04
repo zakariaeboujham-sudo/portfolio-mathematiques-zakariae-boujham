@@ -4,23 +4,33 @@ Projet de recherche de Master consacré à la dynamique linéaire d'opérateurs 
 
 ## Problème
 
-La notion d'hypercyclicité décrit un opérateur possédant une orbite dense. L'ensemble prolongationnel `J(x)` localise cette dynamique. La question centrale est de comprendre quand `J(x)=X` et comment cette propriété se compare à l'hypercyclicité.
+La notion d'hypercyclicité décrit un opérateur possédant une orbite dense. Le projet étudie une notion localisée : l'ensemble prolongationnel `J(x)`, formé des limites obtenues à partir de vecteurs proches de `x` et d'itérations de l'opérateur. La question centrale est de comprendre quand `J(x)` remplit tout l'espace et comment cette propriété se compare à l'hypercyclicité.
 
 ## Approche
 
-- propriétés topologiques et d'invariance des ensembles J ;
-- comparaison entre cyclicité, hypercyclicité et propriété J-class ;
-- analyse d'exemples et de contre-exemples ;
-- étude de shifts pondérés et d'espaces non séparables ;
-- conditions spectrales nécessaires.
+- mise en place des notions d'orbite, de cyclicité, d'hypercyclicité et d'ensemble `J(x)` ;
+- étude des propriétés topologiques et d'invariance des ensembles J ;
+- analyse de caractérisations liant cyclicité, ensembles J et hypercyclicité ;
+- examen d'exemples et de contre-exemples sur des espaces séparables et non séparables ;
+- étude de conditions spectrales nécessaires et de résultats d'approximation sur les espaces de Hilbert.
 
 ## Résultats étudiés
 
-- un opérateur hypercyclique vérifie `J(x)=X` pour tout vecteur ;
-- sous une hypothèse de cyclicité, l'existence d'un vecteur vérifiant `J(x)=X` caractérise l'hypercyclicité ;
-- il existe des opérateurs J-class non hypercycliques ;
-- certaines propriétés spectrales de l'adjoint empêchent la propriété J-class.
+- un opérateur hypercyclique vérifie `J(x) = X` pour tout vecteur `x` ;
+- sous une hypothèse de cyclicité, l'existence d'un vecteur `x` tel que `J(x) = X` caractérise l'hypercyclicité ;
+- la classe J contient aussi des opérateurs non hypercycliques ;
+- les propriétés spectrales de l'adjoint imposent des restrictions à la propriété J-class ;
+- sur certains shifts pondérés, les notions J-class et hypercyclique coïncident.
 
 ## Compétences mobilisées
 
-Analyse fonctionnelle, dynamique linéaire, notions spectrales, lecture critique d'articles, reconstruction de démonstrations et comparaison d'hypothèses.
+- analyse fonctionnelle et théorie des opérateurs ;
+- dynamique linéaire et arguments topologiques ;
+- lecture critique d'articles de recherche ;
+- reconstruction de démonstrations et comparaison d'hypothèses ;
+- synthèse de résultats abstraits et de contre-exemples.
+
+## Contenu du dossier
+
+- `bibliographie.md` : références utilisées, fournies sous forme de liens vers leurs pages d'origine plutôt que de copies d'articles.
+- Le mémoire personnel complet n'étant pas disponible, aucun PDF de substitution n'est présenté comme le rapport original.
