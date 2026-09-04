@@ -1,26 +1,39 @@
-# Analyse complexe et étude des zéros
+# Principe du maximum en analyse complexe
 
-Cette note est fondée sur l'unique extrait conservé du projet de fin d'études de Licence. Le titre global et l'application finale du mémoire ne sont pas connus et ne sont donc pas reconstitués.
+Mémoire complet de projet de fin d'études réalisé en 2019 pour la Licence fondamentale de mathématiques à la Faculté des sciences de l'Université Ibn Tofail, sous l'examen de M. Mohamed Ech-Chad.
 
 ## Problème
 
-Construire les outils nécessaires à l'étude des singularités, des pôles et de la répartition des zéros des fonctions analytiques et méromorphes.
+Établir le principe du maximum pour une fonction holomorphe non constante et étudier ses conséquences, en s'appuyant sur les outils fondamentaux de l'analyse complexe.
 
 ## Approche
 
-1. Formule intégrale de Cauchy, formule de la moyenne, théorème de Liouville et principe du maximum.
-2. Séries de Laurent et classification des singularités isolées.
-3. Calcul des résidus et théorème des résidus.
-4. Résidu logarithmique, principe de l'argument et théorème de Rouché.
+Le mémoire suit une progression démonstrative :
+
+1. rappels topologiques sur le plan complexe et fonctions holomorphes ;
+2. fonctions élémentaires, intégration le long d'un chemin et théorème de Cauchy ;
+3. formule intégrale de Cauchy, séries de Laurent, singularités isolées et résidus ;
+4. démonstration du principe du maximum et étude de ses corollaires ;
+5. prolongement analytique, factorisation et propriétés des zéros ;
+6. théorème de Rouché, inégalités de Cauchy, théorèmes de Liouville et de D'Alembert-Gauss.
 
 ## Résultats étudiés
 
-Représentation locale des fonctions, classification des singularités, calcul d'intégrales complexes, comptage des zéros et des pôles et comparaison de fonctions par le théorème de Rouché.
+- localisation du maximum du module sur la frontière d'un domaine borné ;
+- principe du minimum et lemme de Schwarz comme applications ;
+- prolongement analytique et isolement des zéros d'une fonction holomorphe non nulle ;
+- factorisation locale selon la multiplicité d'un zéro ;
+- comptage et localisation des zéros par le théorème de Rouché ;
+- déduction de résultats classiques à partir de Cauchy et de Liouville.
 
 ## Compétences mobilisées
 
-Intégration complexe, manipulation rigoureuse des hypothèses d'analyticité, raisonnement par contradiction, enchaînement de théorèmes et rédaction structurée de preuves.
+- intégration complexe et séries de Laurent ;
+- manipulation rigoureuse des hypothèses d'analyticité ;
+- raisonnement par contradiction ;
+- enchaînement logique de théorèmes ;
+- rédaction structurée de preuves.
 
-## Précaution documentaire
+## Document original
 
-La synthèse décrit uniquement les connaissances et la démarche visibles dans l'extrait disponible ; elle ne présente pas cet extrait comme le mémoire complet.
+[`memoire-licence-principe-du-maximum.pdf`](memoire-licence-principe-du-maximum.pdf) contient les 35 pages du mémoire original remis en 2019. Aucun texte de substitution n'est présenté comme le projet de Licence.
