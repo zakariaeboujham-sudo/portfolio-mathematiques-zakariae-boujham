@@ -8,25 +8,33 @@ Projet académique réalisé en 2020 dans le cadre du Master *Analyse mathémati
 
 ## Approche
 
-1. Statistiques descriptives et étude des records successifs.
-2. Comparaison des lois bêta, logistique, gamma, normale, log-normale, Weibull, Pareto et Cauchy.
-3. Histogrammes, fonctions de répartition empiriques, densités et QQ-plots.
-4. Estimation des paramètres et test d'adéquation de Kolmogorov-Smirnov.
+1. Calcul des paramètres descriptifs : minimum, quartiles, médiane, moyenne, variance, écart-type, étendue et écart interquartile.
+2. Étude des records successifs, de leurs indicatrices et du nombre de records observés.
+3. Comparaison de plusieurs familles : bêta, logistique, gamma, normale, log-normale, Weibull, Pareto et Cauchy.
+4. Comparaison graphique par histogramme, densité, fonction de répartition empirique et QQ-plots.
+5. Estimation des paramètres des lois candidates.
+6. Vérification par un test d'adéquation de Kolmogorov-Smirnov.
 
 ## Résultat du rapport initial
 
-Les analyses graphiques et le test effectué conduisent à retenir une loi log-normale pour représenter les observations. Cette conclusion concerne ce jeu de données et ne constitue pas une propriété générale.
+Les analyses graphiques et le test effectué dans le rapport conduisent à retenir une loi log-normale pour représenter les observations. Cette conclusion est présentée comme le résultat de ce jeu de données, pas comme une propriété générale.
 
-## Amélioration méthodologique
+## Document original
 
-Le script publié sépare clairement chargement, estimation, visualisation et test. Comme les paramètres sont estimés sur le même échantillon, il propose un bootstrap paramétrique avec réestimation pour évaluer la distance de Kolmogorov-Smirnov.
-
-## Reproductibilité
-
-- `scripts/analyse_statistique.R` analyse un CSV contenant une colonne numérique `x`.
-- `scripts/demo_simulation.R` crée un échantillon simulé uniquement destiné à tester le programme.
-- Les données universitaires originales ne sont pas publiées, leurs droits de diffusion n'étant pas établis.
+- [`rapport-statistique-ordre-complet.pdf`](rapport-statistique-ordre-complet.pdf) est le rapport universitaire original de 27 pages.
+- Le numéro APOGEE figurant sur la couverture a été masqué avant la mise en ligne publique ; le contenu scientifique n'a pas été réécrit.
+- Le jeu de données universitaire original n'est pas publié, ses droits de diffusion n'étant pas établis.
 
 ## Compétences mobilisées
 
-Programmation R, statistiques descriptives et d'ordre, estimation paramétrique et non paramétrique, comparaison de distributions, tests d'adéquation et interprétation prudente des résultats.
+- programmation scientifique sous R ;
+- statistiques descriptives et statistiques d'ordre ;
+- estimation paramétrique et non paramétrique ;
+- comparaison graphique de distributions ;
+- tests d'adéquation et interprétation prudente des résultats.
+
+## Limites
+
+- les données originales ne sont pas disponibles dans ce dépôt ;
+- le rapport de 2020 présente une implémentation pédagogique réalisée dans le cadre du module ;
+- la sélection finale d'un modèle doit aussi considérer la qualité des données, les hypothèses métier et la validation hors échantillon.
